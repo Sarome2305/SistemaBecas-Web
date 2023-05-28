@@ -1,0 +1,49 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11 abr 2023, 20:56:21
+    Author     : camil
+*/
+body{
+    background: url(WhatsApp\ Image\ 2023-03-16\ at\ 11.45.26\ AM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+h3{
+ font-family: 'Times New Roman', Times, serif;
+ color: rgb(0, 0, 0);
+ width: 50px;
+}
+p{
+ font-family: 'Times New Roman', Times, serif;
+ color: rgb(255, 255, 255);
+ width: max-content;
+ font-size: 25px;
+ border: #e4b5b5;
+}
+
+h1{
+ color: aliceblue;
+}
+img{
+    width: 60px;
+}
+label{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: aliceblue;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+}

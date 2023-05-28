@@ -1,0 +1,135 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20/05/2023, 8:38:15 p. m.
+    Author     : camil
+*/
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff9c;
+    padding: 30px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwGBvu1aBG4X8V0qy08vQYm6Wpl6RRIMfLKXz7gGg7jEpFw2SE8vIVkWkmTw-RYGljJl8&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-info {
+    text-align: center;
+  }
+  
+  .profile-info h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-info li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info li:before {
+    content: "\2022";
+    margin-right: 10px;
+    color: #000000;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .register-btn, .approve-btn, .deny-btn, .companies-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold
+}
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      
+      .register-btn, .approve-btn, .deny-btn, .companies-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #1abc9c;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+      
+      .register-btn:hover, .approve-btn:hover, .deny-btn:hover, .companies-btn:hover {
+        background-color: #16a085;
+      }
+      
+      .approve-btn {
+        background-color: #2ecc71;
+      }
+      
+      .approve-btn:hover {
+        background-color: #27ae60;
+      }
+      
+      .deny-btn {
+        background-color: #e74c3c;
+      }
+      
+      .deny-btn:hover {
+        background-color: #c0392b;
+      }
+      
+      .companies-btn {
+        background-color: #3498db;
+      }
+      
+      .companies-btn:hover {
+        background-color: #2980b9;
+      }
+      body{
+        background-color: #16a08421;
+      }

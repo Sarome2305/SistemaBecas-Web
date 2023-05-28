@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    background-image: url(https://images.pexels.com/photos/8199562/pexels-photo-8199562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Estilos de encabezado */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.brand img {
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.imagen {
+    height: 200px;
+    background-image: url("ruta-de-la-imagen.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.imagen-grande {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("ruta-de-la-imagen.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos del contenido principal */
+.content {
+    padding: 50px 0;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 18px;
+    text-align: center;
+    font
+
+    .navbar {
+        background-color: white;
+    }
+
+    .navbar .nav-link {
+        color: white;
+    }
+
+    .navbar .nav-link:hover {
+        color: black;
+    }
